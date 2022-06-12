@@ -1,0 +1,56 @@
+.content{
+    width: 100%;
+}
+.top-search input {
+    float: right;
+  }
+.top{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-sentence p{
+    font-size: 2.05vw;
+    color: rgb(27, 27, 189);
+    font-weight: 500;
+}
+.bot-sentence p{
+    margin-top: 4vh;
+    padding-left: 4vw;
+    font-size: 2.05vw;
+    color: rgb(27, 27, 189);
+    font-weight: 500;
+}
+button {
+    all: unset;
+    padding-top: 0.6vw;
+    padding-right: 0.4vw;
+    cursor: pointer;
+    width: 2.2vw;
+
+  }
+  
+  svg {
+    color: rgb(2, 2, 12);
+    fill: currentColor;
+
+  }
+  input {
+    all: unset;
+    color: rgba(0, 0, 0, 0.63);
+  }
+  form {
+    margin-top: 2.2vh;
+    padding-left: 0.5vw;
+    padding-top: 0.2vh;
+    width: 36.5vw;
+    font-size: 1.5vw;
+    height: 7vh;
+    background: rgb(238, 238, 247);
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }

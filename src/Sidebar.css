@@ -3,35 +3,34 @@
     display: flex;
     flex-direction: column;
     background: rgb(238, 238, 247);
-    min-width: 400px;
+    min-width: 25vw;
     width: 25vw;
-    max-width: 40vw;
 }
 .process{
     padding-left: 4vw;
-    height: 60vh;
-    
+    margin-top: 4vh;
 }
-ul li{
+.process > ul li{
     text-decoration: none;
     list-style-type: none; 
-    padding-top: 6vh;
+    padding-top: 3.5vh;
     font-size: 2.2vw;
 }
-ul li p img{
+.process > ul>li>p>img{
     height: 2vw;
 }
-ul li p{
+.process > ul li p{
     font-style: inherit;
    color: rgb(54, 95, 230);
     font-weight: 200;
+    padding-left: 0;
 
 }
 .logo  >img{
     padding-top: 3vh;
     padding-left: 2.5vw;
     height: 8vh;
-    max-width: 40vw;
+    max-width: 10vw;
 }
 .bottom-img{
     padding-left: 2.5vw;
@@ -44,5 +43,6 @@ ul li p{
     max-width: 40vw;
 }
 .points{
-    font-size: 1vw;
+    font-size: 1.2vw;
+    padding-left: 1vw;
 }
