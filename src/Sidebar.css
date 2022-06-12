@@ -1,0 +1,48 @@
+.Sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(238, 238, 247);
+    min-width: 400px;
+    width: 25vw;
+    max-width: 40vw;
+}
+.process{
+    padding-left: 4vw;
+    height: 60vh;
+    
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none; 
+    padding-top: 6vh;
+    font-size: 2.2vw;
+}
+ul li p img{
+    height: 2vw;
+}
+ul li p{
+    font-style: inherit;
+   color: rgb(54, 95, 230);
+    font-weight: 200;
+
+}
+.logo  >img{
+    padding-top: 3vh;
+    padding-left: 2.5vw;
+    height: 8vh;
+    max-width: 40vw;
+}
+.bottom-img{
+    padding-left: 2.5vw;
+    position: fixed;
+    bottom: 0;
+}
+.bottom-img > img{
+    height:20vh;
+    width: 20vw;
+    max-width: 40vw;
+}
+.points{
+    font-size: 1vw;
+}
