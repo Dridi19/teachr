@@ -7,13 +7,13 @@ import chat from "./chat.png"
 import verified from "./verified.png"
 import position from "./position.png"
 
-export default function Cards() {
+export default function Cards({imgname}) {
   return (
     <div className='Card-container'>
         <div className='card'>
             <div className="topinfo">
                 <div className='card-img'>
-                    <img src={male} alt="" />
+                    <img src={imgname} alt="" />
                 </div>
                 <div className='name'><p>Marie Dardel</p></div>
                 <div className='stars'> <img src={review} alt="" /> </div>
@@ -21,7 +21,7 @@ export default function Cards() {
             </div>
             <div className="informations">
                 <ul>
-                    <li><p><img src={diploma} alt="" /> Hec,1ére année</p></li>
+                    <li><p><img src={diploma} alt="" /> Hec, 1ére année</p></li>
                     <li><p><img src={chat} alt="" /> Billingue</p></li>
                     <li><p><img src={verified} alt="" />  Diplome vérifié</p></li>
                     <li><p><img src={position} alt="" />  Paris</p></li>

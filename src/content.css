@@ -8,13 +8,13 @@
     align-items: center;
 }
 .top-sentence p{
-    font-size: 1.7vw;
+    font-size: 2vw;
     color: rgb(27, 27, 189);
     font-weight: 800;
 }
 .bot-sentence p{
-    margin-top: 2vh;
-    font-size: 1.7vw;
+    margin-top: 3vh;
+    font-size: 2vw;
     color: rgb(27, 27, 189);
     font-weight: 800;
 }
@@ -40,7 +40,7 @@ button {
     margin-top: 2vh;
     padding-left: 0.5vw;
     padding-top: 0.2vh;
-    width: 32vw;
+    width: 40vw;
     font-size: 1.5vw;
     height: 7vh;
     background: rgb(238, 238, 247);

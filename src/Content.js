@@ -1,6 +1,8 @@
 import React from 'react'
 import './content.css';
 import Cards from "./Cards.js"
+import male from "./male.png"
+import female from "./female.png"
 export default function Content() {
   return (
     <div className='content'>
@@ -25,9 +27,9 @@ export default function Content() {
         </div>
         <div className='cardsss'>
           <div className='cards-cont'>
-          <Cards/>
-          <Cards/>
-          <Cards/>
+          <Cards imgname={male} />
+          <Cards imgname={female} />
+          <Cards imgname={male}/>
         </div>
         </div>
         <div className="bot-buttons">
