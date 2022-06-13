@@ -1,10 +1,10 @@
 .Sidebar{
-    height: 100vh;
+    height: calc(100vh);
     display: flex;
     flex-direction: column;
     background: rgb(238, 238, 247);
-    min-width: 25vw;
-    width: 25vw;
+    min-width: 30vw;
+    width: 30vw;
 }
 .process{
     padding-left: 4vw;
@@ -34,8 +34,7 @@
 }
 .bottom-img{
     padding-left: 2.5vw;
-    position: fixed;
-    bottom: 0;
+    transform: translateY(30vh);
 }
 .bottom-img > img{
     height:20vh;

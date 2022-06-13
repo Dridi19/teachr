@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Tiro Devanagari Sanskrit', serif;
 }
 .home{
   display: flex;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
 }

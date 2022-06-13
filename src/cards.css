@@ -1,4 +1,89 @@
 .Card-container{
     display: flex;
     justify-content: center;
+    width: 20vw;
+    border-radius: 5%;
+    background: rgba(196, 218, 218, 0.795);
+    margin-left: 4vw;
+    max-height: 65vh;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none; 
+}
+.card-img{
+  position: relative;
+
+}
+.name{
+    color: blue;
+    font-size: 1.8vw;
+
+}
+.card-img img{
+    max-height: 11vh;
+    max-width: 8vw;}
+.topinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-4.8vh);
+}
+
+.stars img{
+    width: 8vw;
+}
+.hours-number{
+    font-size: 0.5vw;
+
+}
+.informations{
+    padding-left: 1vw;
+    transform: translateY(-1vh);
+    margin: 0;
+    color: blue;
+}
+.informations>ul>li>p{
+    font-size: 1.3vw;
+}
+.informations>ul>li>p>img{
+    transform: translateY(1vh);
+    padding-right: 1vw;
+    width: 1.5vw;
+    height: 3.5vh;
+    max-width: 20px;
+}
+.card-description{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+}
+.first-desc{
+    color: blue;
+    font-size:1.6vw;
+    font-family: Poppins,sans-serif;
+    padding-bottom: 7px;
+}
+.second-desc{
+    font-size: 1vw;
+
+    color: rgba(0, 0, 0, 0.589);
+    text-align: inherit;
+}
+.card-button{
+    display:inline-block;
+    padding:0.6vh 1.2vw;
+    margin:0 0.3vh 0.3vh 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#382bee;
+    text-align:center;
+    transition: all 0.2s;
+}
+.card-button{
+    transform: translate(4vw,3vh);
 }

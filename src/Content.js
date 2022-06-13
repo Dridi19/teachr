@@ -6,7 +6,7 @@ export default function Content() {
     <div className='content'>
         <div className='top'>
             <div className='top-sentence'>
-                <p>En quelle matiére avez vousbesoin de d'aide?</p>
+                <p>En quelle matiére avez-vous besoin de d'aide?</p>
             </div>
             <div className='top-search'>
             <form role="search" id="form">
@@ -20,10 +20,20 @@ export default function Content() {
 
             </div>
             <div className='bot-sentence'>
-                <p>Les Tech'rs dAnglais qui pourraient vous correpondre</p>
+                <p>Les Teach'rs dAnglais qui pourraient vous correspondre</p>
             </div>
         </div>
-      <Cards/>
+        <div className='cardsss'>
+          <div className='cards-cont'>
+          <Cards/>
+          <Cards/>
+          <Cards/>
+        </div>
+        </div>
+        <div className="bot-buttons">
+        <input type="button" value="PRECEDENT" />
+        <input type="button" className='next-btn' value="SUIVANT" />
+        </div>
     </div>
   )
 }
