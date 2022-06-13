@@ -3,6 +3,7 @@
   }
 .top{
     margin-top: 1.2vh;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,7 +58,6 @@ button {
     justify-content: center;
   }
   .bot-buttons INPUT{
-    margin-top: 5vh;
     margin-left: 2vw;
   }
   .next-btn{
@@ -77,6 +77,20 @@ button {
     margin-left: 1vw;
     padding-top: 5vh;
     display: flex;
-    width: 100%;
     align-items: flex-end;
+   
+}
+.cardsss{
+    height: 67vh;
+    width: 70vw;
+    overflow-x: scroll;
+}
+@media screen and (max-width:750px) {
+    .cardsss{
+        width: 100vw;
+    }
+    .top{
+        width: 100vw;
+
+    }
 }
