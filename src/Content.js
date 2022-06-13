@@ -57,8 +57,8 @@ export default function Content() {
         </div>
    
         <div className="bot-buttons">
-        <input type="button" value="PRECEDENT" onClick={() => scroll(-20)} />
-        <input type="button" className='next-btn' value="SUIVANT" onClick={() => scroll(20)} />
+        <input type="button" value="PRECEDENT" onClick={() => scroll(-100)} />
+        <input type="button" className='next-btn' value="SUIVANT" onClick={() => scroll(100)} />
         </div>
     </div>
   )
