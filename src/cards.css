@@ -1,13 +1,25 @@
 .Card-container{
     display: flex;
     justify-content: center;
-    min-width: 19vw;
+    min-width: 20vw;
     border-radius: 5%;
-    background: rgba(196, 218, 218, 0.795);
+    background: rgba(243, 249, 255);
     margin-left: 5vw;
     max-height: 56vh;
-    box-shadow: 0px 2px 0px 0px rgb(189, 186, 186);
+    box-shadow: 0.5px 2px 0.5px 0px rgb(189, 186, 186);
 }
+.Card-container::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(245, 240, 240, 0.151);
+    width: 19.5vw;
+    height: 55vh;
+    z-index: -1;
+  }
+
+
+
+
 ul li{
     text-decoration: none;
     list-style-type: none; 
@@ -42,7 +54,7 @@ ul li{
     padding-left: 1vw;
     transform: translateY(-4vh);
     margin: 0;
-    color: blue;
+    color: rgb(70, 112, 180);
 }
 .informations>ul>li>p{
     font-size: 1.2vw;
@@ -62,7 +74,7 @@ ul li{
 
 }
 .first-desc{
-    color: blue;
+    color: rgb(70, 112, 180);
     font-size:1.4vw;
     font-family: Poppins,sans-serif;
     padding-bottom: 5px;

@@ -10,14 +10,14 @@
 }
 .top-sentence p{
     font-size: 2vw;
-    color: rgb(27, 27, 189);
+    color: rgb(70, 112, 180);
     font-weight: 800;
 }
 .bot-sentence p{
     margin-top: 3vh;
     margin-bottom: 1vh;
     font-size: 2vw;
-    color: rgb(27, 27, 189);
+    color: rgb(70, 112, 180);
     font-weight: 800;
 }
 button {
