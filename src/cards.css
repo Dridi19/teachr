@@ -30,7 +30,7 @@ ul li{
 }
 .name{
     color: blue;
-    font-size: 1.7vw;
+    font-size: 1.6vw;
 
 }
 .card-img img{
@@ -101,4 +101,88 @@ ul li{
     position: absolute;
     bottom: -48%;
     right: 32%;
+}
+@media screen and (max-width:750px) {
+    .Card-container{
+        min-width: 30vw;
+        max-height: 56vh;
+    }
+    .informations>ul>li>p{
+        font-size: 13px;
+    }
+    .informations>ul>li>p>img{
+        transform: translateY(1vh);
+        padding-right: 1vw;
+        width: 3vw;
+        height: 3.5vh;
+        max-width: 25px;
+    }
+    .first-desc{
+        color: rgb(70, 112, 180);
+        font-size:15px;
+        padding-bottom: 5px;
+    }
+    .second-desc{
+        font-size: 1.5vw;
+        color: rgba(0, 0, 0, 0.589);
+        text-align: inherit;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+    .name{
+        font-size: 18px;
+        text-align: center;
+    
+    }
+    .Card-container{
+        min-width: 50vw;
+        max-height: 56vh;
+    }
+    .hours-number{
+        font-size: 6px;
+    
+    }
+    .informations>ul>li>p{
+        font-size: 13px;
+    }
+    .informations>ul>li>p>img{
+        transform: translateY(1vh);
+        padding-right: 1vw;
+        width: 3vw;
+        height: 3.5vh;
+        max-width: 25px;
+    }
+    .first-desc{
+        color: rgb(70, 112, 180);
+        font-size:15px;
+        padding-bottom: 5px;
+    }
+    .second-desc{
+        font-size: 2vw;
+        color: rgba(0, 0, 0, 0.589);
+        text-align: inherit;
+    }
+    .top-sentence p{
+        font-size: 25px;
+        color: rgb(70, 112, 180);
+        font-weight: 800;
+        text-align: center;
+    }
+    .bot-sentence p{
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+        font-size: 19px;
+        color: rgb(70, 112, 180);
+        font-weight: 800;
+        text-align: center;
+    }
 }
