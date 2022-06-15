@@ -1,19 +1,34 @@
 import React,{useState,useRef,useEffect} from 'react'
 import './content.css';
-import Cards from "./Cards.js"
-import male from "./male.png"
-import female from "./female.png"
+import Addcard from "./Addcard.js"
 export default function Content() {
   const [search,setsearch] = useState("Anglais")
+  const [teachers,setteachers] =useState("")
+  const [loading,setloading] =useState(true)
   const searchinput = useRef()
   const card = useRef()
+  const Api_url = 'https://www.data.gouv.fr/api/1/users/?page=1&page_size=20';
   const scroll = (scrollOffset) => {
     card.current.scrollLeft += scrollOffset;
   };
   useEffect(()=>{
     const lastsearch = JSON.parse(localStorage.getItem(local_storage_key))
     if (lastsearch){
-      setsearch(lastsearch)}
+      setsearch(lastsearch) }
+    const fetchteachers = async () => {
+      try {
+        const response = await fetch(Api_url);
+        const teacherslist = await response.json();
+        console.log(teacherslist)
+        setteachers(teacherslist)
+      } catch(err){
+        console.log(err.stack)
+      } finally {
+        setloading(false);
+      }
+    }
+   
+    (async () => await fetchteachers())();
   },[])
   useEffect(()=>{
     localStorage.setItem(local_storage_key, JSON.stringify(search))
@@ -48,17 +63,16 @@ export default function Content() {
         </div>
         <div className='cardsss' ref={card} >
           <div className='cards-cont' >
-          <Cards imgname={male} />
-          <Cards imgname={female} />
-          <Cards imgname={male}/>
-          <Cards imgname={male}/>
+
+           {!loading && <Addcard teachers={teachers} />}
+
         </div>
 
         </div>
    
         <div className="bot-buttons">
-        <input type="button" value="PRECEDENT" onClick={() => scroll(-100)} />
-        <input type="button" className='next-btn' value="SUIVANT" onClick={() => scroll(100)} />
+        <input type="button" value="PRECEDENT" onClick={() => scroll(-200)} />
+        <input type="button" className='next-btn' value="SUIVANT" onClick={() => scroll(200)} />
         </div>
     </div>
   )

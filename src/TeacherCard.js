@@ -1,5 +1,4 @@
 import React from 'react'
-import male from "./male.png"
 import './cards.css';
 import review from "./four-stars.png"
 import diploma from "./dip.jpg"
@@ -7,7 +6,7 @@ import chat from "./chat.png"
 import verified from "./verified.png"
 import position from "./position.png"
 
-export default function Cards({imgname}) {
+export default function TeacherCard({imgname,name,lastname}) {
   return (
     <div className='Card-container'>
         <div className='card'>
@@ -15,7 +14,7 @@ export default function Cards({imgname}) {
                 <div className='card-img'>
                     <img src={imgname} alt="" />
                 </div>
-                <div className='name'><p>Marie Dardel</p></div>
+                <div className='name'><p>{name} {lastname} </p></div>
                 <div className='stars'> <img src={review} alt="" /> </div>
                 <div className='hours-number'>20 heures données</div>
             </div>
