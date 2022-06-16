@@ -1,10 +1,10 @@
 import React from 'react'
 import './cards.css';
-import review from "./four-stars.png"
-import diploma from "./dip.jpg"
-import chat from "./chat.png"
-import verified from "./verified.png"
-import position from "./position.png"
+import review from "./img/four-stars.png"
+import diploma from "./img/dip.jpg"
+import chat from "./img/chat.png"
+import verified from "./img/verified.png"
+import position from "./img/position.png"
 
 export default function TeacherCard({imgname,name,lastname}) {
   return (

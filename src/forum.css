@@ -1,0 +1,51 @@
+.formp{
+    float:left;
+    height:86%;
+    width:100%;
+    box-sizing:border-box;
+    padding:40px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-wrap: wrap;
+  }
+  .textbox{
+    height:50px;
+    width:100%;
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 2px solid;
+    box-sizing:border-box;
+    padding:10px;
+
+  }
+  .formp > div {
+  display: flex;}
+  .formp > div >div {
+    margin: 1rem;}
+    .formp > div >div>p {
+        transform: translate(10px,28px);
+        font-size: 15px;
+    }
+.textbox{
+    padding: 20px;
+    padding-top: 50px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(238, 238, 247);
+}
+.askforhelp{
+    margin-right: 5vw;
+    margin-top: 2vh;
+    text-align: end;
+}
+
+.almost{
+    margin-top: 4vh;
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+.almost p{
+    font-size: 22px;
+    color: grey;
+}

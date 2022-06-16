@@ -50,3 +50,13 @@
         display: none;
     }
 }
+.bottom-imgs{
+    padding-left: 3vw;
+    transform: translateY(10vh);
+
+}
+.bottom-imgs > img{
+    height:20vh;
+    width: 20vw;
+    max-width: 40vw;
+}

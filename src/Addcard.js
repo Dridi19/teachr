@@ -1,7 +1,7 @@
 import React from 'react'
 import TeacherCard  from "./TeacherCard.js"
-import female from "./male.png"
-import male from "./female.png"
+import female from "./img/male.png"
+import male from "./img/female.png"
 export default function Addcard({teachers}) {
   return (
     teachers.data.map(element => {

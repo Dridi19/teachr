@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from "./logo.png"
-import check from "./check.png"
-import books from "./books.png"
-import two from "./2.png"
-import three from "./3.png"
+import logo from "./img/logo.png"
+import check from "./img/check.png"
+import books from "./img/books.png"
+import two from "./img/2.png"
+import three from "./img/3.png"
 import './Sidebar.css';
 
 export default function Sidebar() {
